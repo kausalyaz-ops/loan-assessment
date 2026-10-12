@@ -16,7 +16,10 @@ from sklearn.model_selection import StratifiedKFold, cross_val_score
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder, StandardScaler
 
-from loan_assessment.synthetic_data import make_demo_data
+if __package__:
+    from .synthetic_data import make_demo_data
+else:
+    from synthetic_data import make_demo_data
 
 NUMERIC_COLUMNS = [
     "age",
