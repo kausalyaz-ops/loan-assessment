@@ -38,6 +38,23 @@ ordered credit-score band. It writes
 `outputs/loan_default_pipeline.joblib`. The reported accuracy is an example
 metric on synthetic data, not a lending-performance guarantee.
 
+## Supervised models and K-Means (task 3)
+
+Compare logistic regression, a decision tree, a random forest, and XGBoost;
+fit linear, Ridge, and Lasso regressions for loan amount; and inspect K-Means
+segments for `k=2..8`:
+
+```powershell
+python -m loan_assessment.task3
+```
+
+This prints the validation-score table, forest OOB score, logistic
+probabilities, important features, regression coefficients, and segment
+profiles. It writes `outputs/task3_results.csv`,
+`outputs/task3_segments.csv`, and the elbow/silhouette chart at
+`outputs/task3_elbow_silhouette.png`. Install dependencies, including
+XGBoost, with `python -m pip install -r requirements.txt`.
+
 ## Run with a trainer-provided dataset
 
 The CSV must contain a binary target and a numeric requested-loan-amount
