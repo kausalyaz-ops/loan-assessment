@@ -21,6 +21,23 @@ The demo creates a deterministic sample dataset, excludes its generated
 python -m loan_assessment
 ```
 
+## Preprocessing, features, and pipeline example
+
+Run a focused example that compares median and KNN numeric imputation using
+stratified cross-validation. Feature engineering, imputation, scaling, and
+encoding are all fitted inside each fold. The best-scoring pipeline is saved
+with joblib, loaded again, and used to predict three new raw applicant rows:
+
+```powershell
+python -m loan_assessment.task2
+```
+
+The example decomposes `application_date`, adds an income-to-loan ratio and a
+log-income feature, one-hot encodes nominal categories, and ordinal-encodes an
+ordered credit-score band. It writes
+`outputs/loan_default_pipeline.joblib`. The reported accuracy is an example
+metric on synthetic data, not a lending-performance guarantee.
+
 ## Run with a trainer-provided dataset
 
 The CSV must contain a binary target and a numeric requested-loan-amount
