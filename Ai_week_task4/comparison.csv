@@ -1,0 +1,3 @@
+Model,Accuracy,Macro F1,Training time (s),Inference time (ms/text)
+TF-IDF + LogisticRegression,1.0,1.0,0.031351499957963824,0.06186041476515432
+Fine-tuned DistilBERT,1.0,1.0,19.30345100001432,7.831149998916468
