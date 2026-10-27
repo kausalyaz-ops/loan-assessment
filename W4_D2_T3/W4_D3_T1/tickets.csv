@@ -1,0 +1,11 @@
+ticket_id,ticket,true_category,true_priority
+T01,"I was charged twice for the same order this morning.",Billing,High
+T02,"I reset my password, but I still cannot sign in to my account.",Account Access,Medium
+T03,"The tracking page says delivered, but my package is not at my address.",Shipping,Medium
+T04,"The app crashes every time I try to complete checkout; I was not charged.",Technical Support,High
+T05,"My subscription renewed yesterday after I tried to cancel. Please cancel it and refund the renewal.",Cancellation & Refund,High
+T06,"I cannot get into my account because the password reset email never arrives.",Account Access,Medium
+T07,"The item arrived broken. I need help getting a replacement.",Shipping,Medium
+T08,"There is an unauthorized purchase on my account, and my payment card has been stolen.",Billing,Urgent
+T09,"Could you send me a copy of the invoice for my completed purchase?",Billing,Low
+T10,"My approved refund has not appeared after ten business days.",Cancellation & Refund,High

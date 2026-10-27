@@ -1,0 +1,31 @@
+ticket_id,version,raw_answer,predicted_category,predicted_priority
+T01,v1,"{""category"":""Billing"",""priority"":""High""}",Billing,High
+T02,v1,"{""category"":""Account Access"",""priority"":""Medium""}",Account Access,Medium
+T03,v1,"{""category"":""Shipping"",""priority"":""Medium""}",Shipping,Medium
+T04,v1,"{""category"":""Technical Support"",""priority"":""High""}",Technical Support,High
+T05,v1,"{""category"":""Cancellation & Refund"",""priority"":""High""}",Cancellation & Refund,High
+T06,v1,"{""category"":""Technical Support"",""priority"":""Medium""}",Technical Support,Medium
+T07,v1,"{""category"":""Shipping"",""priority"":""Medium""}",Shipping,Medium
+T08,v1,"{""category"":""Billing"",""priority"":""Urgent""}",Billing,Urgent
+T09,v1,"{""category"":""Billing"",""priority"":""Low""}",Billing,Low
+T10,v1,"{""category"":""Cancellation & Refund"",""priority"":""High""}",Cancellation & Refund,High
+T01,v2,"This is a billing issue because the customer was charged twice; high priority.",Billing,High
+T02,v2,"Technical support, medium priority, since sign-in still fails after the reset.",Technical Support,Medium
+T03,v2,"Shipping, medium priority: the package is marked delivered but is missing.",Shipping,Medium
+T04,v2,"Billing, high priority, because the problem happened during checkout.",Billing,High
+T05,v2,"Cancellation & Refund, high priority; the renewal followed a cancellation attempt.",Cancellation & Refund,High
+T06,v2,"Account Access, medium priority, because the customer cannot sign in.",Account Access,Medium
+T07,v2,"Returns, medium priority, for a broken delivered item.",Returns,Medium
+T08,v2,"Account Access, urgent priority, because the account and card may be compromised.",Account Access,Urgent
+T09,v2,"Billing, low priority; the customer only needs an invoice copy.",Billing,Low
+T10,v2,"Cancellation & Refund, high priority, because an approved refund is delayed.",Cancellation & Refund,High
+T01,v3,"The charge appears twice, so I would route this to Billing with High priority.",Billing,High
+T02,v3,"This is an Account Access problem, Medium priority, because the customer cannot sign in.",Account Access,Medium
+T03,v3,"The missing delivery is a Shipping issue with Medium priority.",Shipping,Medium
+T04,v3,"The checkout crash is Technical Support, High priority.",Technical Support,High
+T05,v3,"This is Billing, High priority, due to the renewed subscription charge.",Billing,High
+T06,v3,"The customer needs Account Access help, Medium priority, because the reset email does not arrive.",Account Access,Medium
+T07,v3,"This is a Shipping issue, Medium priority, because the delivered item was broken.",Shipping,Medium
+T08,v3,"This is Billing, Urgent priority, because the transaction is unauthorized and the card was stolen.",Billing,Urgent
+T09,v3,"The customer needs Shipping help, Low priority, to receive an invoice.",Shipping,Low
+T10,v3,"This is Billing, High priority, because a refund is still pending.",Billing,High
