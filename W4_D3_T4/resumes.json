@@ -1,0 +1,47 @@
+[
+  {
+    "id": "resume_1",
+    "text": "Jordan Lee is a data analyst with 4 years of experience. Jordan uses Python, SQL, and Tableau to build reports and dashboards.",
+    "expected": {
+      "name": "Jordan Lee",
+      "skills": ["Python", "SQL", "Tableau"],
+      "years_experience": 4
+    }
+  },
+  {
+    "id": "resume_2",
+    "text": "Priya Nair has worked as a backend engineer for 6 years, building services with Java, PostgreSQL, and Docker.",
+    "expected": {
+      "name": "Priya Nair",
+      "skills": ["Java", "PostgreSQL", "Docker"],
+      "years_experience": 6
+    }
+  },
+  {
+    "id": "resume_3",
+    "text": "For the past 2 years, Mateo Ruiz has designed mobile apps using Kotlin and Firebase. He also writes automated tests with JUnit.",
+    "expected": {
+      "name": "Mateo Ruiz",
+      "skills": ["Kotlin", "Firebase", "JUnit"],
+      "years_experience": 2
+    }
+  },
+  {
+    "id": "resume_4",
+    "text": "Aisha Khan is a product designer with 5 years of experience in Figma, user research, and prototyping.",
+    "expected": {
+      "name": "Aisha Khan",
+      "skills": ["Figma", "user research", "prototyping"],
+      "years_experience": 5
+    }
+  },
+  {
+    "id": "resume_5",
+    "text": "Noah Chen has 3 years of experience as a cloud engineer. His skills include AWS, Terraform, and Linux.",
+    "expected": {
+      "name": "Noah Chen",
+      "skills": ["AWS", "Terraform", "Linux"],
+      "years_experience": 3
+    }
+  }
+]
