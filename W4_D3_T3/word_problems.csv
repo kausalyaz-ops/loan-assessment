@@ -1,0 +1,6 @@
+problem_id,problem,expected_answer,unit
+P1,"A cyclist travels 12 kilometers in 3 hours at a constant speed. How many kilometers per hour is that?",4,km/h
+P2,"Three bags contain 18 oranges altogether, with the same number in each bag. How many oranges are in each bag?",6,oranges
+P3,"A notebook costs $3. What is the total cost of 4 notebooks?",12,dollars
+P4,"A bus has 24 passengers. Seven get off and then 5 get on. How many passengers are on the bus?",22,passengers
+P5,"A 12-liter jug is three-quarters full. How many liters of water are in it?",9,liters

@@ -1,0 +1,38 @@
+problem_id,prompt_mode,question,expected_answer,unit,predicted_number,correct,temperature,top_p,raw_response
+P1,direct,A cyclist travels 12 kilometers in 3 hours at a constant speed. How many kilometers per hour is that?,4,km/h,3,false,0.0,1.0,"A cyclist travels 12 kilometers in 3 hours at a constant speed. How many kilometers per hour is that?
+Answer: A cyclist travels 12 kilometers in 3 hours at a constant speed.
+Answer: A cyclist travels 12 kilometers in 3 hours at a constant speed.
+Answer: A cyclist travels 12 kilometers in 3 hours"
+P2,direct,"Three bags contain 18 oranges altogether, with the same number in each bag. How many oranges are in each bag?",6,oranges,,false,0.0,1.0,"The oranges are in the same bag as the oranges.
+Answer: The oranges are in the same bag as the oranges.
+Answer: The oranges are in the same bag as the oranges.
+Answer: The oranges are in the same bag as the oranges.
+Answer: The oranges are in the same bag as"
+P3,direct,A notebook costs $3. What is the total cost of 4 notebooks?,12,dollars,4,false,0.0,1.0,"A notebook costs $3. What is the total cost of 4 notebooks? Give a concise answer and show no working.
+Answer: A notebook costs $3. What is the total cost of 4 notebooks? Give a concise answer and show no working.
+Answer: A notebook costs $3. What is the total"
+P4,direct,A bus has 24 passengers. Seven get off and then 5 get on. How many passengers are on the bus?,22,passengers,5,false,0.0,1.0,A bus has 24 passengers. Seven get off and then 5 get on. How many passengers are on the bus? Give a concise answer and show no working. Answer: A bus has 24 passengers. Seven get off and then 5 get on. How many passengers are on the bus? Give a concise answer and show no
+P5,direct,A 12-liter jug is three-quarters full. How many liters of water are in it?,9,liters,12,false,0.0,1.0,"A 12-liter jug is three-quarters full. How many liters of water are in it?
+Answer: A 12-liter jug is three-quarters full. How many liters of water are in it?
+Answer: A 12-liter jug is three-quarters full. How many liters of"
+P1,think_step_by_step,A cyclist travels 12 kilometers in 3 hours at a constant speed. How many kilometers per hour is that?,4,km/h,3,false,0.0,1.0,"The cyclist is traveling 12 kilometers in 3 hours at a constant speed. How many kilometers per hour is that?
+Solution: The cyclist is traveling 12 kilometers in 3 hours at a constant speed. How many kilometers per hour is that?
+Solution: The cyclist is traveling 12 kilometers in 3 hours at a constant speed."
+P2,think_step_by_step,"Three bags contain 18 oranges altogether, with the same number in each bag. How many oranges are in each bag?",6,oranges,,false,0.0,1.0,"The number of oranges in each bag is the number of oranges in each bag.
+The number of oranges in each bag is the number of oranges in each bag.
+The number of oranges in each bag is the number of oranges in each bag.
+The number of oranges in each bag is the number of oranges"
+P3,think_step_by_step,A notebook costs $3. What is the total cost of 4 notebooks?,12,dollars,,false,0.0,1.0,The notebook is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is a notebook. It is
+P4,think_step_by_step,A bus has 24 passengers. Seven get off and then 5 get on. How many passengers are on the bus?,22,passengers,,false,0.0,1.0,"The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The bus is a bus.
+The"
+P5,think_step_by_step,A 12-liter jug is three-quarters full. How many liters of water are in it?,9,liters,12,false,0.0,1.0,"A 12-liter jug is three-quarters full. How many liters of water are in it?
+A 12-liter jug is three-quarters full. How many liters of water are in it?
+A 12-liter jug is three-quarters full. How many liters of water are in it"

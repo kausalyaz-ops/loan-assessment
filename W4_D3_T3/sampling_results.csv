@@ -1,0 +1,5 @@
+setting,runs,distinct_responses,description
+temperature_0_top_p_0.95,5,1,All five completions were textually identical.
+temperature_0.7_top_p_0.95,5,5,5/5 completions were textually distinct; inspect the saved text to compare the story details and coherence.
+temperature_1.2_top_p_0.95,5,5,5/5 completions were textually distinct; inspect the saved text to compare the story details and coherence.
+temperature_0.7_top_p_0.3,5,2,2/5 completions were textually distinct; inspect the saved text to compare the story details and coherence.

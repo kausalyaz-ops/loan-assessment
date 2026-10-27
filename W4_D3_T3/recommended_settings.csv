@@ -1,0 +1,4 @@
+task,temperature,top_p,recommended_prompting,reason
+Extraction,0.0,1.0,"Explicit fields and source-only constraint; request the exact output schema.","Extraction should be deterministic and avoid unsupported additions."
+Summarisation,0.2,0.95,"Specify audience, length, and required coverage; stay grounded in the source.","Low randomness preserves source fidelity while allowing natural phrasing."
+Brainstorming,0.9,0.95,"Set a clear goal and diversity requirement; request several distinct options.","Higher randomness encourages variety; a broad nucleus avoids over-pruning ideas."

@@ -1,0 +1,23 @@
+{
+  "model": "gpt2",
+  "model_type": "base causal language model; not instruction-tuned",
+  "local_files_only": true,
+  "word_problems_per_condition": 5,
+  "creative_runs_per_condition": 5,
+  "temperature_conditions": [
+    0.0,
+    0.7,
+    1.2
+  ],
+  "top_p_comparison": {
+    "temperature": 0.7,
+    "top_p_values": [
+      0.3,
+      0.95
+    ]
+  },
+  "base_seed": 20261027,
+  "max_new_tokens_word_problems": 64,
+  "max_new_tokens_creative": 64,
+  "word_problem_scoring": "Check the last standalone numeric value generated against the listed expected answer; manually review raw completions before interpreting accuracy."
+}
