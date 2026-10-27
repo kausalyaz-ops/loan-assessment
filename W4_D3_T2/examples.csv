@@ -1,0 +1,11 @@
+example_id,ticket,category,priority,notes
+E01,"I have a question about a charge that looks unfamiliar, but I have not confirmed whether it is mine.",Billing,Medium,"Ambiguous billing concern; do not assume confirmed fraud."
+E02,"Someone used my card without permission and the unauthorized charge is still pending.",Billing,Urgent,"Clear active unauthorized transaction."
+E03,"My password reset worked, but I still cannot sign in.",Account Access,Medium,"Login failure after a reset is account access, not general technical support."
+E04,"The reset email never arrives, and I need to get into my account before today's deadline.",Account Access,High,"Account access with a time-sensitive impact."
+E05,"The tracking page says delivered, but nothing is at my door.",Shipping,Medium,"Missing package after a delivery scan."
+E06,"The item arrived broken and I need a replacement.",Shipping,Medium,"Damaged delivered goods are a shipping issue."
+E07,"The app crashes while I try to use a feature; there is no payment or account-security problem.",Technical Support,High,"Product failure without a billing or account-access issue."
+E08,"Please cancel my renewal and refund the subscription charge from yesterday.",Cancellation & Refund,High,"Explicit cancellation and refund request."
+E09,"My approved refund has not appeared after ten business days.",Cancellation & Refund,High,"Delayed refund belongs to cancellation and refund."
+E10,"Could you send me the invoice for my completed purchase?",Billing,Low,"Routine invoice request."

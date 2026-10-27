@@ -1,0 +1,11 @@
+ticket_id,true_category,true_priority,zero_shot_category,zero_shot_priority,k2_category,k2_priority,k3_category,k3_priority,k5_category,k5_priority,k3_reversed_category,k3_reversed_priority,k3_wrong_category,k3_wrong_priority
+T01,Billing,High,Billing,High,Billing,High,Billing,High,Billing,High,Billing,High,Billing,High
+T02,Account Access,Medium,Account Access,Medium,Account Access,Medium,Account Access,Medium,Account Access,Medium,Technical Support,Medium,Technical Support,Medium
+T03,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium
+T04,Technical Support,High,Technical Support,High,Technical Support,High,Technical Support,High,Technical Support,High,Technical Support,High,Technical Support,High
+T05,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High
+T06,Account Access,Medium,Technical Support,Medium,Technical Support,Medium,Account Access,Medium,Account Access,Medium,Account Access,Medium,Technical Support,Medium
+T07,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium,Shipping,Medium,Billing,Medium,Billing,Medium
+T08,Billing,Urgent,Billing,Urgent,Billing,Urgent,Billing,Urgent,Billing,Urgent,Billing,Urgent,Billing,Urgent
+T09,Billing,Low,Billing,Low,Billing,Low,Billing,Low,Billing,Low,Billing,Low,Billing,Low
+T10,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High,Cancellation & Refund,High

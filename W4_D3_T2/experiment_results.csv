@@ -1,0 +1,7 @@
+version,examples,accuracy,correct,category_correct,priority_correct,mean_input_tokens,tokenizer,kind
+zero_shot,0,9/10,9,9,10,163.3,cl100k_base estimate,illustrative predictions; not model output
+k2,2,9/10,9,9,10,227.3,cl100k_base estimate,illustrative predictions; not model output
+k3,3,10/10,10,10,10,253.3,cl100k_base estimate,illustrative predictions; not model output
+k5,5,10/10,10,10,10,315.3,cl100k_base estimate,illustrative predictions; not model output
+k3_reversed,3,9/10,9,9,10,253.3,cl100k_base estimate,illustrative predictions; not model output
+k3_one_wrong_label,3,7/10,7,7,10,253.3,cl100k_base estimate,illustrative predictions; not model output

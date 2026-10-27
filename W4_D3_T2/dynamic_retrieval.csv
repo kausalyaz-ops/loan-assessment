@@ -1,0 +1,31 @@
+ticket_id,rank,example_id,similarity,category,priority
+T01,1,E01,0.000000,Billing,Medium
+T01,2,E02,0.000000,Billing,Urgent
+T01,3,E03,0.000000,Account Access,Medium
+T02,1,E03,0.565728,Account Access,Medium
+T02,2,E04,0.223223,Account Access,High
+T02,3,E07,0.095206,Technical Support,High
+T03,1,E05,0.881917,Shipping,Medium
+T03,2,E01,0.000000,Billing,Medium
+T03,3,E02,0.000000,Billing,Urgent
+T04,1,E07,0.489077,Technical Support,High
+T04,2,E01,0.000000,Billing,Medium
+T04,3,E02,0.000000,Billing,Urgent
+T05,1,E08,0.642402,Cancellation & Refund,High
+T05,2,E09,0.088049,Cancellation & Refund,High
+T05,3,E01,0.000000,Billing,Medium
+T06,1,E04,0.572100,Account Access,High
+T06,2,E03,0.384841,Account Access,Medium
+T06,3,E07,0.064765,Technical Support,High
+T07,1,E06,0.940934,Shipping,Medium
+T07,2,E04,0.074548,Account Access,High
+T07,3,E01,0.000000,Billing,Medium
+T08,1,E02,0.283300,Billing,Urgent
+T08,2,E07,0.193844,Technical Support,High
+T08,3,E10,0.173923,Billing,Low
+T09,1,E10,0.925820,Billing,Low
+T09,2,E01,0.000000,Billing,Medium
+T09,3,E02,0.000000,Billing,Urgent
+T10,1,E09,1.000000,Cancellation & Refund,High
+T10,2,E08,0.076331,Cancellation & Refund,High
+T10,3,E01,0.000000,Billing,Medium

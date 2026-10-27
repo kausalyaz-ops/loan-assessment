@@ -1,0 +1,14 @@
+{
+  "base_prompt": "prompts/zero_shot.txt",
+  "example_bank": "examples.csv",
+  "versions": {
+    "k2": ["E01", "E03"],
+    "k3": ["E01", "E03", "E05"],
+    "k5": ["E01", "E03", "E05", "E07", "E08"]
+  },
+  "challenge_versions": {
+    "k3_reversed": ["E05", "E03", "E01"],
+    "k3_one_wrong_label": ["E01", "E03", "E05_WRONG"]
+  },
+  "note": "The experimental output CSV labels are illustrative, not live LLM generations."
+}
